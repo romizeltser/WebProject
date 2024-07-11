@@ -1,0 +1,49 @@
+body{
+    width:100%; 
+}
+#SuperLogo
+{
+    position: relative;
+    width: 15%;
+   float: right;
+}
+header{
+    /* display: flex; */
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 70px;
+   background-color:rgba(0, 255, 106, 0.192);
+   width:100%; 
+ 
+}
+
+#navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    padding-top:50px ;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color:rgb(61, 61, 61);
+}
+#navbar li a:hover
+{
+    color:rgb(64, 167, 132);
+}
+
+/* #CategoryDiv
+{
+width: 199px;
+display: flex;
+justify-content: right;
+} */
