@@ -1,0 +1,32 @@
+#SuperLogo
+{
+    width: 15%;
+    float: right;
+}
+header{
+ 
+    align-items: center;
+    justify-content: space-between;
+    padding:1% 2%;
+   
+}
+#navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 3% 3%;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color:black;
+}
+#navbar li a:hover
+{
+    color:rgb(64, 167, 132);
+}
